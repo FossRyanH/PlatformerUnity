@@ -1,0 +1,679 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.3f1 (7cdc2969a641) revision 8182825'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ryanh/OneDrive/Documents/GitHub/ArisProject/ArisProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50495
+Successfully changed project path to: C:/Users/ryanh/OneDrive/Documents/GitHub/ArisProject/ArisProject
+C:/Users/ryanh/OneDrive/Documents/GitHub/ArisProject/ArisProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6388] Host "[IP] 10.0.0.74 [Port] 0 [Flags] 2 [Guid] 2435015182 [EditorId] 2435015182 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6388] Host "[IP] 10.0.0.74 [Port] 0 [Flags] 2 [Guid] 2435015182 [EditorId] 2435015182 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.3f1 (7cdc2969a641)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ryanh/OneDrive/Documents/GitHub/ArisProject/ArisProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8146 MB
+    Driver:   31.0.14057.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.008840 seconds.
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 241 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (64ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (341ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ryanh\OneDrive\Documents\GitHub\ArisProject\ArisProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ryanh\OneDrive\Documents\GitHub\ArisProject\ArisProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (432ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (245.2 KB). Loaded Objects now: 4460.
+Memory consumption went from 144.4 MB to 144.1 MB.
+Total: 3.404000 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.232300 ms MarkObjects: 2.527700 ms  DeleteObjects: 0.177900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1833.330094 seconds.
+  path: Assets/GameArt/Enemies/_DeathNoMovement.png
+  artifactKey: Guid(cfab277d96395c4418e6a65cd9b980ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Enemies/_DeathNoMovement.png using Guid(cfab277d96395c4418e6a65cd9b980ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacaa8cb1022b7882a40e1b27fde50ff') in 0.115530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameArt/Enemies/_Hit.png
+  artifactKey: Guid(f2ad6ef946e696048921a54353f867a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Enemies/_Hit.png using Guid(f2ad6ef946e696048921a54353f867a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d1ed4f8274282e3cc726e67042b5fa') in 0.012506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameArt/Enemies/_Run.png
+  artifactKey: Guid(4702a8a674b816341a2ef8eeda591243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Enemies/_Run.png using Guid(4702a8a674b816341a2ef8eeda591243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a2ccfdf83a21aebe3bca7ec2e3a7b') in 0.026847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 6.500950 seconds.
+  path: Assets/GameArt/Environment/Ladder.asset
+  artifactKey: Guid(4f92e1c295beb5446a6f24420ad7bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/Ladder.asset using Guid(4f92e1c295beb5446a6f24420ad7bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46791cc7891ded49c4bd1eccfd9ca8a') in 0.063362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_2.asset
+  artifactKey: Guid(39f63becf8178e5498cc67ecbe329087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_2.asset using Guid(39f63becf8178e5498cc67ecbe329087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e05e49070af2e59717df241f182f5d5') in 0.012087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_0.asset
+  artifactKey: Guid(9c9a052d59bd1884ab824d7499e45ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_0.asset using Guid(9c9a052d59bd1884ab824d7499e45ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f0123ce5ef1b236bf54854b3d9bacc') in 0.011274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset.png
+  artifactKey: Guid(8e5d88bfe482d6d49ba191d5a3bb60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset.png using Guid(8e5d88bfe482d6d49ba191d5a3bb60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74369b57208241bef37f5e8af91d50b') in 0.248105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 1.644036 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_15.asset
+  artifactKey: Guid(bedf5217cbf9a744f80f3ec99f86a121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_15.asset using Guid(bedf5217cbf9a744f80f3ec99f86a121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c930823cab6b027340ab77982d90e5') in 0.008929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.051832 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_18.asset
+  artifactKey: Guid(5b670345302bfe54186df8ff0982fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_18.asset using Guid(5b670345302bfe54186df8ff0982fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c946cdd25683473c9adba4e1f829ca') in 0.008975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.424928 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_21.asset
+  artifactKey: Guid(38e34bce6728660408e68b8395b75c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_21.asset using Guid(38e34bce6728660408e68b8395b75c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171e9e43106dae907fb520d568d732c8') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027741 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_24.asset
+  artifactKey: Guid(7bbbc9404b20b604f940d893010573d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_24.asset using Guid(7bbbc9404b20b604f940d893010573d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b064d2d410ca88bdbdbf1f859b6330e') in 0.008530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010293 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_27.asset
+  artifactKey: Guid(47a6728c4815db84eb01130d9908811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_27.asset using Guid(47a6728c4815db84eb01130d9908811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d918ecb124245851edc72f18641c8c') in 0.008992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030934 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_30.asset
+  artifactKey: Guid(8a67f3b9d9f82b94e9adc23296fe24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_30.asset using Guid(8a67f3b9d9f82b94e9adc23296fe24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62877b05c27395d657526a2e3df62a86') in 0.008473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.281996 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_33.asset
+  artifactKey: Guid(773823d27befd79458f6984db286553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_33.asset using Guid(773823d27befd79458f6984db286553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a5fecc024a5553896505b6ab7dfeec') in 0.012267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017836 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_36.asset
+  artifactKey: Guid(e9082e1747eb70f4fb7ccbc78a055b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_36.asset using Guid(e9082e1747eb70f4fb7ccbc78a055b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3efd7d85d49efc601f506ede23ff9f') in 0.008653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010177 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_39.asset
+  artifactKey: Guid(e536caef51b38fc45a2c9b0128bab14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_39.asset using Guid(e536caef51b38fc45a2c9b0128bab14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf2b134b335b6871592f387f14ff326') in 0.008428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018668 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_42.asset
+  artifactKey: Guid(4dc97e90000939c43a81bd5656ed98a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_42.asset using Guid(4dc97e90000939c43a81bd5656ed98a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d253c73eb8a54e5f8140acbbef04072') in 0.008141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.261824 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_45.asset
+  artifactKey: Guid(9dacc397ac23e4e4194170746d0733cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_45.asset using Guid(9dacc397ac23e4e4194170746d0733cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa61ef62dc5827235c4b08c6269f24f3') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009069 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_48.asset
+  artifactKey: Guid(8380e258bcbf4114a9e13818f7d90722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_48.asset using Guid(8380e258bcbf4114a9e13818f7d90722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb12b3aa203e4d5b4225b3398725f5') in 0.008379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014655 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_51.asset
+  artifactKey: Guid(7f86debe39301c24484a00c87fe92e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_51.asset using Guid(7f86debe39301c24484a00c87fe92e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e6417103916774e62de85f487023c') in 0.009199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010924 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_54.asset
+  artifactKey: Guid(7d1755119d63c324eb55d989144b944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_54.asset using Guid(7d1755119d63c324eb55d989144b944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c877fcec5b721f5d6f53e0755253acd4') in 0.007706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.243490 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_57.asset
+  artifactKey: Guid(a64c2fd785534784e8bd07fd8a728b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_57.asset using Guid(a64c2fd785534784e8bd07fd8a728b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b1511b35753ec41da82620ca8ea165') in 0.007782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007025 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_60.asset
+  artifactKey: Guid(24a4589cd3d0f044f9f627a03e0d0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_60.asset using Guid(24a4589cd3d0f044f9f627a03e0d0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651b66f4a3692bc7e805dc4211260274') in 0.009022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007736 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_63.asset
+  artifactKey: Guid(67eecc01aac2c4649b3504c1b3512807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_63.asset using Guid(67eecc01aac2c4649b3504c1b3512807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9693a81efdc80ffacc704544fb9a89') in 0.007591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002110 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_66.asset
+  artifactKey: Guid(cb45313e30362c940836a449ea206e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_66.asset using Guid(cb45313e30362c940836a449ea206e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d454b87f563c998a8168d9fef89bda') in 0.009373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.231048 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_69.asset
+  artifactKey: Guid(fb5f977cfadb35443b81ffbe678c9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_69.asset using Guid(fb5f977cfadb35443b81ffbe678c9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffd10017897aba1fc218286fd028a13') in 0.008495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013697 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_72.asset
+  artifactKey: Guid(eb3bbb6ca1e2bd84a8baae3a19e437f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_72.asset using Guid(eb3bbb6ca1e2bd84a8baae3a19e437f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa65819fd882e1b66bc07c91fb6b7e3') in 0.008832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004238 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_75.asset
+  artifactKey: Guid(b443b571239b93147a26f8ded28afea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_75.asset using Guid(b443b571239b93147a26f8ded28afea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c3c85e976ff2e4fe647312d1b76c80') in 0.010593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011871 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_78.asset
+  artifactKey: Guid(3e1cf2f4a5160fe4d8d2fc9c24678821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_78.asset using Guid(3e1cf2f4a5160fe4d8d2fc9c24678821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9281aaa86f6833611097f282cff0e') in 0.004579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009055 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_81.asset
+  artifactKey: Guid(28b88ea0a8f06184da59a63439effb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_81.asset using Guid(28b88ea0a8f06184da59a63439effb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607ef0cffdb0af68c1584d37d3007cdf') in 0.009833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.229734 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_84.asset
+  artifactKey: Guid(ad6c7e40e8664394292e717d37add610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_84.asset using Guid(ad6c7e40e8664394292e717d37add610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8d097b20481fcbb4c18dd560fa1302') in 0.008256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002899 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_87.asset
+  artifactKey: Guid(7ad2d303d6e8fec4fa0ea87333886fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_87.asset using Guid(7ad2d303d6e8fec4fa0ea87333886fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6f4df1ef9fb37dbf08321f7ea547d') in 0.008041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013883 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_90.asset
+  artifactKey: Guid(ca8ed5dd5b72d0248ae19518434f5d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_90.asset using Guid(ca8ed5dd5b72d0248ae19518434f5d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb61392af4281b1e86d3a76f8c303f7') in 0.010021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001912 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_93.asset
+  artifactKey: Guid(59f88ded3ad18e146a98971fa8962b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_93.asset using Guid(59f88ded3ad18e146a98971fa8962b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f940a0f70dc8a2bbf8a476a6b723faa') in 0.009084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.249485 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_96.asset
+  artifactKey: Guid(edcf023b082b2bb4b8f1fd0d6ed625d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_96.asset using Guid(edcf023b082b2bb4b8f1fd0d6ed625d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598267306b035664e5c3466a4f44744') in 0.009549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008686 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_99.asset
+  artifactKey: Guid(edd1812468a159447b1bcdaddb9ffc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_99.asset using Guid(edd1812468a159447b1bcdaddb9ffc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fb2a0200939eb896aa2704c20a5b55') in 0.008506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010089 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_102.asset
+  artifactKey: Guid(7534dab42c1717547b5288b939faab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_102.asset using Guid(7534dab42c1717547b5288b939faab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd1efa3f5f3919452ae0c453dd06d47') in 0.008426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.049107 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_105.asset
+  artifactKey: Guid(c837460df99eea24b96afece972ee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_105.asset using Guid(c837460df99eea24b96afece972ee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671774fe77504cf043bb83c150cf9d76') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.192510 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_108.asset
+  artifactKey: Guid(d7b923ede859bf6478b230af39dd217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_108.asset using Guid(d7b923ede859bf6478b230af39dd217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ce21dff0267bf8c1606d4383c48193') in 0.008399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014069 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_111.asset
+  artifactKey: Guid(1710b27267f729146830f55d49287fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_111.asset using Guid(1710b27267f729146830f55d49287fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902eac6c8aad87910e09ba4783403427') in 0.009094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004176 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_114.asset
+  artifactKey: Guid(533cfb9fb39d2da4890bdbe35ba0add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_114.asset using Guid(533cfb9fb39d2da4890bdbe35ba0add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acead658fb07d394f680eca39e94bbcb') in 0.009415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014601 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_117.asset
+  artifactKey: Guid(30ed6cfa5a730cd4497ac98b10030ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_117.asset using Guid(30ed6cfa5a730cd4497ac98b10030ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21145e132b0b5f5e7610ef6d6bb9737a') in 0.009156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.209588 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_120.asset
+  artifactKey: Guid(510ea80d821cac949a0bd81641164e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_120.asset using Guid(510ea80d821cac949a0bd81641164e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00256b5c8db1452cd9f95a074d038f57') in 0.013020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014703 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_123.asset
+  artifactKey: Guid(8f18a310276db6e4c92f65f48db5e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_123.asset using Guid(8f18a310276db6e4c92f65f48db5e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e91333f11c5324a635b38d97e1496') in 0.009442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019278 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_129.asset
+  artifactKey: Guid(62fff5ab19d58c74b81e0ecd0106198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_129.asset using Guid(62fff5ab19d58c74b81e0ecd0106198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6c0265c2a595240d7b33e9e517fa19') in 0.011152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_131.asset
+  artifactKey: Guid(e3d60ad36642fa645a418afd8e0cf32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_131.asset using Guid(e3d60ad36642fa645a418afd8e0cf32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c122dd4f57d557a77f5b81d1874f49ea') in 0.014220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.221762 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_135.asset
+  artifactKey: Guid(c2097177bc9750f4297f984efb78758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_135.asset using Guid(c2097177bc9750f4297f984efb78758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab873084d70c471dcd30c58fd06daf') in 0.011920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012646 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_138.asset
+  artifactKey: Guid(041e22096c480ca4ebd5a4f0fd9b792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_138.asset using Guid(041e22096c480ca4ebd5a4f0fd9b792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65867d7592ec305c9de0b5c37a7432f') in 0.010458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.211770 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_144.asset
+  artifactKey: Guid(dfa063c19fb826e4eb28f5180ddaa5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_144.asset using Guid(dfa063c19fb826e4eb28f5180ddaa5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8abb48dc41c3d3fb0eb6f7919d0a7') in 0.011480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013541 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_147.asset
+  artifactKey: Guid(59f67b91de7f4a748abb6fd097e898dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_147.asset using Guid(59f67b91de7f4a748abb6fd097e898dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26f72b0fd0ce2f71707ce42739f1528') in 0.008134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001951 seconds.
+  path: Assets/GameArt/Environment/oak_woods_tileset_150.asset
+  artifactKey: Guid(38dc01f0cbfe54449aa5a18c7a2ce69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/oak_woods_tileset_150.asset using Guid(38dc01f0cbfe54449aa5a18c7a2ce69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6c211942fe7406826b6714edc0dcb') in 0.008398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003984 seconds.
+  path: Assets/GameArt/Environment/Platforms Palette.prefab
+  artifactKey: Guid(a94704f82ac36704593893ec78bf2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/Platforms Palette.prefab using Guid(a94704f82ac36704593893ec78bf2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6932a2c456474df48636202ed2c1644a') in 0.090207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 319
+========================================================================
+Received Import Request.
+  Time since last request: 0.186486 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_5.asset
+  artifactKey: Guid(27bb78f28d450f242a2f257bdd4a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_5.asset using Guid(27bb78f28d450f242a2f257bdd4a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75571b8329d9c2d095f81d1c3a20724') in 0.008112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013383 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_8.asset
+  artifactKey: Guid(cd84e9ec74e546b40911c034ddc4b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_8.asset using Guid(cd84e9ec74e546b40911c034ddc4b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed94bee33dbf7f3ae2bd0d4579edd0') in 0.008722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_11.asset
+  artifactKey: Guid(98e55ea8335d4b846be5a26432b45adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_11.asset using Guid(98e55ea8335d4b846be5a26432b45adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97d8529dec46b9f5117f198eb1f92a7') in 0.008366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.238602 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_14.asset
+  artifactKey: Guid(66a08eab275bbe44fbc27f3306a2add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_14.asset using Guid(66a08eab275bbe44fbc27f3306a2add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a915b77a93a4f7d8333322a33e05874') in 0.008564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015844 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_17.asset
+  artifactKey: Guid(c0ce12b786f06004eb5bdef01195d90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_17.asset using Guid(c0ce12b786f06004eb5bdef01195d90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34094a7e60200ca66a03efc3418ddef8') in 0.008199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002066 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_20.asset
+  artifactKey: Guid(033dd79004b5f3c43a0549db818a6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_20.asset using Guid(033dd79004b5f3c43a0549db818a6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923ffaac504bb04a32b71b2727d3b232') in 0.007555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007658 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_23.asset
+  artifactKey: Guid(c68b71f51b189734296eafa9d8c556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_23.asset using Guid(c68b71f51b189734296eafa9d8c556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282fa3b2b5645405049d2c4602263108') in 0.008709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 25.011940 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_26.asset
+  artifactKey: Guid(f8d44c0db7bb4b24b97985d0bc46dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_26.asset using Guid(f8d44c0db7bb4b24b97985d0bc46dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51d1a911490e296d0c1ed874709ecd9') in 0.011604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006318 seconds.
+  path: Assets/GameArt/Environment/SPA_Rock_Grass_Water_29.asset
+  artifactKey: Guid(3e5fe4f100aca4847831ab7420dc007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/Environment/SPA_Rock_Grass_Water_29.asset using Guid(3e5fe4f100aca4847831ab7420dc007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59609b8c2cc69a03a27da25fd94f8155') in 0.008509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
